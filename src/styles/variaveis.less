@@ -1,0 +1,27 @@
+@corPrimaria:#b0b0b0;
+@corDoTexto:#5ca0d3;
+@corSecundaria:#8c8c8c;
+
+    @metal-base: #444343;
+    @metal-dark: darken(@metal-base, 35%);
+    @metal-light: lighten(@metal-base, 30%);
+    @metal-shine: linear-gradient(
+    145deg,
+    @metal-light 0%,
+    @metal-dark 25%,
+    @metal-light 50%,
+    @metal-dark 75%,
+    @metal-light 100%
+    );
+    @metal-gradient: @metal-shine;
+
+
+
+
+        @keyframes metalShine {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+    }
+
+//variveis com auxilio da IA
