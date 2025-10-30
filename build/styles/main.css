@@ -19,7 +19,7 @@
   font-family: 'roboto', sans-serif;
 }
 body {
-  color: #1E90FF;
+  color: #E3F2FD;
   min-height: 100vh;
   text-align: center;
   background: linear-gradient(145deg, #918f8f 0%, #000000 25%, #918f8f 50%, #000000 75%, #918f8f 100%);
@@ -68,7 +68,7 @@ header {
 }
 .profile-bio-subtitle {
   font-size: 14px;
-  color: #ff400083;
+  color: #9DBCD4;
   margin-bottom: 8px;
 }
 .profile-bio-description {
@@ -94,19 +94,19 @@ header {
 }
 .projects-list-item a {
   text-decoration: none;
-  background-color: #ff400083;
+  background-color: #FF4500;
   display: block;
   padding: 16px 20px;
   margin-bottom: 16px;
   text-align: center;
-  color: #1E90FF;
+  color: #E3F2FD;
   font-weight: bold;
   border-radius: 30px;
   border: 2px solid #FF4500;
   transition: all ease 0.5s;
 }
 .projects-list-item a:hover {
-  color: #ff400083;
+  color: #9DBCD4;
   background: linear-gradient(145deg, #918f8f 0%, #000000 25%, #918f8f 50%, #000000 75%, #918f8f 100%);
   border-color: #FF4500;
 }
